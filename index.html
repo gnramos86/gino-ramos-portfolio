@@ -372,6 +372,42 @@
     </section>
   </main>
 
+
+  <div class="chatbot-widget" id="chatbotWidget">
+    <button class="chatbot-toggle" id="chatbotToggle" aria-label="Open portfolio chatbot">
+      💬
+    </button>
+
+    <div class="chatbot-panel open" id="chatbotPanel">
+      <div class="chatbot-header">
+        <div>
+          <strong>Gino's Portfolio Assistant</strong>
+          <span>Cloud • DevOps • Infrastructure</span>
+        </div>
+        <button id="chatbotClose" aria-label="Close chatbot">×</button>
+      </div>
+
+      <div class="chatbot-messages" id="chatbotMessages">
+        <div class="bot-message">
+          Hi! I can help you learn more about Gino’s AWS, DevOps, infrastructure, CI/CD, backup, and project experience.
+        </div>
+      </div>
+
+      <div class="chatbot-suggestions">
+        <button data-question="aws">AWS skills</button>
+        <button data-question="cicd">CI/CD work</button>
+        <button data-question="projects">Projects</button>
+        <button data-question="nz">New Zealand</button>
+        <button data-question="contact">Contact</button>
+      </div>
+
+      <form class="chatbot-input-row" id="chatbotForm">
+        <input id="chatbotInput" type="text" placeholder="Ask about Gino's experience..." autocomplete="off" />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+
   <footer>
     <p>© 2026 Gino Ramos. Open-source portfolio built with HTML, CSS, and JavaScript.</p>
   </footer>
