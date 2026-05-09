@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Gino Ramos | Cloud & DevOps Portfolio</title>
+  <meta name="description" content="Cloud, DevOps, Infrastructure, AWS, CI/CD, Backup and Disaster Recovery portfolio of Gino Ramos." />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Open-source icons from Devicon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="#" class="logo">Gino<span>Ramos</span></a>
+
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="hero-content">
+        <p class="eyebrow">Cloud • DevOps • Infrastructure • AWS</p>
+
+        <h1>
+          Hi, I’m <span>Gino Ramos</span>.
+          <br />
+          I build secure cloud and infrastructure systems.
+        </h1>
+
+        <p class="hero-description">
+          Infrastructure and DevOps practitioner focused on AWS, CI/CD, Docker,
+          ECS, CloudFront, Route 53, RDS, backup and disaster recovery,
+          network security, and hybrid on-prem to cloud operations.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <img class="profile-photo" src="assets/images/profile.jpg" alt="Professional profile photo of Gino Ramos" />
+        <h2>Cloud & DevOps Portfolio</h2>
+        <p>
+          Real-world infrastructure work covering AWS deployments, CI/CD pipelines,
+          production support, backup strategy, and security-focused operations.
+        </p>
+
+        <div class="quick-icons">
+          <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
+          <i class="devicon-github-original"></i>
+          <i class="devicon-docker-plain colored"></i>
+          <i class="devicon-linux-plain"></i>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">About</p>
+        <h2>Infrastructure-first, cloud-focused, security-aware.</h2>
+        <p>
+          I specialize in infrastructure implementation, cloud deployment, and DevOps operations.
+          My work includes deploying production systems, configuring secure access,
+          building CI/CD workflows, preparing ISO 27001 evidence, and supporting hybrid
+          environments across AWS and on-prem servers.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="info-card">
+          <h3>Infrastructure</h3>
+          <p>Windows Server, Ubuntu, pfSense, NGINX, IIS, SQL Server, Docker, VPN, RDP, and production server operations.</p>
+        </div>
+
+        <div class="info-card">
+          <h3>Cloud Engineering</h3>
+          <p>AWS ECS, Fargate, RDS, S3, CloudFront, Route 53, IAM, Secrets Manager, CloudWatch, and AWS Backup.</p>
+        </div>
+
+        <div class="info-card">
+          <h3>DevOps</h3>
+          <p>GitHub Actions, OIDC-based AWS deployment, Docker image deployment, CI/CD branch strategy, and release workflows.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Skills</p>
+        <h2>Tools and platforms I work with</h2>
+        <p>Core technologies aligned with my cloud, DevOps, infrastructure, and operations experience.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card"><i class="devicon-amazonwebservices-plain-wordmark colored"></i><span>AWS</span></div>
+        <div class="skill-card"><i class="devicon-github-original"></i><span>GitHub</span></div>
+        <div class="skill-card"><i class="devicon-githubactions-plain colored"></i><span>GitHub Actions</span></div>
+        <div class="skill-card"><i class="devicon-docker-plain colored"></i><span>Docker</span></div>
+        <div class="skill-card"><i class="devicon-linux-plain"></i><span>Linux / Ubuntu</span></div>
+        <div class="skill-card"><i class="devicon-nginx-original colored"></i><span>NGINX</span></div>
+        <div class="skill-card"><i class="devicon-windows11-original colored"></i><span>Windows Server</span></div>
+        <div class="skill-card"><i class="devicon-postgresql-plain colored"></i><span>PostgreSQL</span></div>
+        <div class="skill-card"><i class="devicon-microsoftsqlserver-plain colored"></i><span>SQL Server</span></div>
+        <div class="skill-card"><i class="devicon-mongodb-plain colored"></i><span>MongoDB</span></div>
+        <div class="skill-card"><i class="devicon-bash-plain"></i><span>Bash / CLI</span></div>
+        <div class="skill-card"><i class="devicon-cloudflare-plain colored"></i><span>Cloudflare / DNS</span></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Projects</p>
+        <h2>Featured infrastructure and DevOps work</h2>
+        <p>Selected examples based on real cloud, production, and hybrid infrastructure projects.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-icon"><i class="devicon-githubactions-plain colored"></i></div>
+          <h3>Frontend CI/CD Deployment on AWS</h3>
+          <p>Built a GitHub Actions deployment pipeline for an Angular frontend hosted on AWS S3 and delivered through CloudFront.</p>
+
+          <div class="project-diagram">
+            <span>GitHub</span><b>→</b><span>S3</span><b>→</b><span>CloudFront</span><b>→</b><span>Route 53</span>
+          </div>
+
+          <ul>
+            <li>Branch-based deployment workflow</li>
+            <li>AWS IAM OIDC authentication</li>
+            <li>CloudFront cache invalidation</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon"><i class="devicon-amazonwebservices-plain-wordmark colored"></i></div>
+          <h3>API Deployment on AWS ECS Fargate</h3>
+          <p>Prepared and deployed API workloads using AWS container services with load balancing, task definitions, and centralized logs.</p>
+
+          <div class="project-diagram">
+            <span>GitHub</span><b>→</b><span>ECR</span><b>→</b><span>ECS Fargate</span><b>→</b><span>ALB</span>
+          </div>
+
+          <ul>
+            <li>Docker image deployment</li>
+            <li>Application Load Balancer routing</li>
+            <li>CloudWatch log troubleshooting</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon"><i class="devicon-linux-plain"></i></div>
+          <h3>HRIM Application on AWS Lightsail</h3>
+          <p>Hosted and managed an HRIM application on AWS Lightsail with server-level configuration, domain routing, and operational support.</p>
+
+          <div class="project-diagram">
+            <span>Users</span><b>→</b><span>DNS</span><b>→</b><span>Lightsail</span><b>→</b><span>HRIM App</span>
+          </div>
+
+          <ul>
+            <li>Lightsail server provisioning</li>
+            <li>Application hosting and access setup</li>
+            <li>DNS and HTTPS readiness</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon"><i class="devicon-wordpress-plain colored"></i></div>
+          <h3>MyRepsoft WordPress Website on Lightsail</h3>
+          <p>Deployed and managed the MyRepsoft WordPress website using AWS Lightsail for public web hosting.</p>
+
+          <div class="project-diagram">
+            <span>Domain</span><b>→</b><span>Lightsail</span><b>→</b><span>WordPress</span><b>→</b><span>Visitors</span>
+          </div>
+
+          <ul>
+            <li>WordPress hosting</li>
+            <li>Domain mapping</li>
+            <li>Production website support</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon"><i class="devicon-postgresql-plain colored"></i></div>
+          <h3>Database Migration Preparation</h3>
+          <p>Provisioned PostgreSQL for migration testing and configured access controls for developer validation.</p>
+
+          <div class="project-diagram">
+            <span>Dev Tools</span><b>→</b><span>RDS</span><b>→</b><span>Security Group</span><b>→</b><span>PostgreSQL</span>
+          </div>
+
+          <ul>
+            <li>RDS PostgreSQL setup</li>
+            <li>Security group restrictions</li>
+            <li>DBeaver and pgAdmin validation</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon"><i class="devicon-nginx-original colored"></i></div>
+          <h3>Hybrid On-Prem and AWS Infrastructure</h3>
+          <p>Supported production systems across on-prem servers, firewall NAT, NGINX reverse proxy, Docker services, public DNS, and AWS workloads.</p>
+
+          <div class="project-diagram">
+            <span>pfSense</span><b>→</b><span>NGINX</span><b>→</b><span>Docker</span><b>→</b><span>AWS</span>
+          </div>
+
+          <ul>
+            <li>Firewall and routing support</li>
+            <li>Reverse proxy configuration</li>
+            <li>Hybrid production operations</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon"><i class="devicon-amazonwebservices-plain-wordmark colored"></i></div>
+          <h3>Backup, Disaster Recovery, and ISO Evidence</h3>
+          <p>Configured AWS Backup plans and prepared evidence packages to support operational resilience and ISO 27001 audit readiness.</p>
+
+          <div class="project-diagram">
+            <span>RDS</span><b>→</b><span>AWS Backup</span><b>→</b><span>Vault</span><b>→</b><span>Restore</span>
+          </div>
+
+          <ul>
+            <li>Daily, weekly, monthly backup lifecycle</li>
+            <li>Restore readiness documentation</li>
+            <li>Audit evidence packaging</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon"><i class="devicon-docker-plain colored"></i></div>
+          <h3>Docker Registry and Deployment Operations</h3>
+          <p>Supported containerized application deployment using Docker, private registry workflows, and controlled production updates.</p>
+
+          <div class="project-diagram">
+            <span>Docker Build</span><b>→</b><span>Registry</span><b>→</b><span>Server</span><b>→</b><span>Container</span>
+          </div>
+
+          <ul>
+            <li>Docker image tagging</li>
+            <li>Private registry deployment flow</li>
+            <li>Container lifecycle operations</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Experience</p>
+        <h2>Experience highlights</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <span>MyRepsoft LTD</span>
+          <h3>Solution Architect / Infrastructure and DevOps</h3>
+          <p>
+            Designed and implemented AWS and hybrid infrastructure, production deployments,
+            CI/CD pipelines, backup configurations, and security-focused operational improvements.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <span>Sourcefit Philippines / Secur-Serv Client</span>
+          <h3>IT Implementation Engineer II</h3>
+          <p>
+            Supported infrastructure implementation, troubleshooting, remote systems,
+            server operations, and project-based IT delivery.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="new-zealand" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Beyond Work</p>
+        <h2>New Zealand Experience</h2>
+        <p>
+          One of the most meaningful chapters in my professional journey was a
+          three-month visit to New Zealand sponsored by MyRepsoft. This opportunity
+          allowed me to contribute to both on-prem infrastructure and cloud
+          infrastructure initiatives while also gaining international exposure,
+          broadening my perspective, and strengthening my confidence as an
+          infrastructure and DevOps professional.
+        </p>
+      </div>
+
+      <div class="nz-story-grid">
+        <div class="nz-story-card">
+          <h3>A Career Milestone</h3>
+          <p>
+            This experience was more than travel — it was a major professional milestone.
+            It gave me the opportunity to work closely with real infrastructure needs,
+            support technical operations, and represent my capabilities in an
+            international environment.
+          </p>
+
+          <div class="nz-highlights">
+            <span>Sponsored by MyRepsoft</span>
+            <span>3-Month New Zealand Visit</span>
+            <span>On-Prem Infrastructure</span>
+            <span>Cloud Infrastructure</span>
+            <span>International Exposure</span>
+            <span>Career Growth</span>
+          </div>
+        </div>
+
+        <div class="nz-story-card">
+          <h3>Why It Matters</h3>
+          <p>
+            The New Zealand experience reflects both trust and growth. It represents
+            a period where I was able to contribute technically, adapt to a new
+            environment, and continue building the discipline, independence, and
+            professionalism needed in cloud and infrastructure roles.
+          </p>
+        </div>
+      </div>
+
+      <div class="nz-gallery">
+        <figure class="nz-photo-card">
+          <img src="assets/images/Auckland1.jpg" alt="Gino Ramos in Auckland, New Zealand" />
+        </figure>
+
+        <figure class="nz-photo-card">
+          <img src="assets/images/NZ1.jpg" alt="Gino Ramos during his New Zealand experience" />
+        </figure>
+
+        <figure class="nz-photo-card">
+          <img src="assets/images/NZ2.jpg" alt="Gino Ramos working during his New Zealand visit" />
+        </figure>
+
+        
+
+        <figure class="nz-photo-card">
+          <img src="assets/images/NZ4.jpg" alt="Gino Ramos visiting a meaningful site in New Zealand" />
+        </figure>
+
+        <figure class="nz-photo-card">
+          <img src="assets/images/NZ5.jpg" alt="Gino Ramos enjoying a scenic view in New Zealand" />
+        </figure>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s connect</h2>
+        <p>Open to cloud, DevOps, infrastructure, and hybrid systems opportunities.</p>
+      </div>
+
+      <div class="contact-actions">
+        <a class="btn primary" href="mailto:your.email@example.com">Email Me</a>
+        <a class="btn secondary" href="https://github.com/yumburger003" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn secondary" href="https://www.linkedin.com/in/gnramos101386/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Gino Ramos. Open-source portfolio built with HTML, CSS, and JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
