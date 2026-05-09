@@ -709,3 +709,18 @@ footer {
     height: 56px;
   }
 }
+
+.tool-badge {
+  width: 42px;
+  height: 42px;
+  min-width: 42px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  background: rgba(56, 189, 248, 0.12);
+  border: 1px solid rgba(56, 189, 248, 0.28);
+  color: #dff6ff;
+  font-size: 0.82rem;
+  font-weight: 950;
+  letter-spacing: -0.03em;
+}
