@@ -37,6 +37,8 @@ const portfolioAnswers = {
   network: "Gino has worked with hybrid infrastructure involving pfSense, NGINX reverse proxy, public DNS, TLS/HTTPS, VPN/RDP access, Docker servers, and AWS-hosted workloads.",
   msp: "Gino has experience with MSP and operations tools including ConnectWise PSA/RMM, Kaseya, BrightGauge, VulScan, SentinelOne, Arctic Wolf Security Awareness Training, and Augmentt integration with Microsoft 365.",
   microsoft: "Gino has Microsoft infrastructure experience including Microsoft Servers, Active Directory, Domain Controllers, Exchange, Lync, Skype for Business, and Microsoft 365-related integrations.",
+  ai: "Gino has experience supporting LLM and AI application deployment using Dockerized services, GPU-capable infrastructure, API hosting, and production troubleshooting.",
+  virtualization: "Gino has virtualization experience and exposure involving VMware and Hyper-V for server hosting, virtual machine support, and infrastructure operations.",
   default: "I can answer questions about Gino’s AWS, DevOps, infrastructure, CI/CD, Docker, backup, New Zealand experience, and project work. Try asking: What AWS projects has Gino deployed?"
 };
 
@@ -61,6 +63,8 @@ function getPortfolioAnswer(input) {
   if (q.includes('network') || q.includes('pfsense') || q.includes('nginx') || q.includes('on-prem')) return portfolioAnswers.network;
   if (q.includes('connectwise') || q.includes('rmm') || q.includes('psa') || q.includes('kaseya') || q.includes('brightgauge') || q.includes('vulscan') || q.includes('sentinelone') || q.includes('arctic wolf') || q.includes('augmentt')) return portfolioAnswers.msp;
   if (q.includes('active directory') || q.includes('domain controller') || q.includes('dc') || q.includes('exchange') || q.includes('lync') || q.includes('skype') || q.includes('microsoft server') || q.includes('microsoft 365')) return portfolioAnswers.microsoft;
+  if (q.includes('llm') || q.includes('ai') || q.includes('gpu') || q.includes('machine learning')) return portfolioAnswers.ai;
+  if (q.includes('vmware') || q.includes('hyper-v') || q.includes('hyperv') || q.includes('virtualization') || q.includes('virtual machine')) return portfolioAnswers.virtualization;
 
   return portfolioAnswers.default;
 }
